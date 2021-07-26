@@ -1,0 +1,145 @@
+li{
+    text-decoration: none;
+    display: block;
+}
+
+#Admin-wrapper{
+    height: calc(100% - 66px);
+    display: flex;
+}
+
+#Admin-wrapper .left-sidebar{
+    height: 100%;
+    flex: 1.5; /*تاخد 2 من 10 من المساحة*/
+  /*   background: #3b494d; */
+}
+
+#Admin-wrapper .left-sidebar ul{
+    list-style: none;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    color: white;
+}
+
+#Admin-wrapper .left-sidebar ul li {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#Admin-wrapper .left-sidebar ul li a{
+    padding: 10px;
+    margin-top: 20px;
+    display: block;
+    background-color: #000000c0;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#Admin-wrapper .left-sidebar ul li a:hover{
+    background:#00cbff;
+    color:  white;
+    /* border: 1px solid #00cbff; */
+}
+
+#Admin-wrapper .admin-content{
+    height: 100%;
+    flex: 8; /*تاخد 8 من 10 من المساحة*/
+    padding: 40px 100px 100px;
+    overflow-y: scroll;/*الحواف العلية و السفلة*/
+}
+
+#Admin-wrapper .admin-content h2{
+    margin-bottom: 0;
+}
+#Admin-wrapper .admin-content img{
+    margin-left: 45%;
+    margin-bottom: 20px;
+}
+
+#Admin-wrapper .admin-content .buttom-gruop .btn-big{
+    background: #00cbff;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+
+#Admin-wrapper .admin-content .buttom-gruop .btn-big:hover{
+    background: white;
+    color:  #252525  !important;
+    /* border: 1px solid #00cbff; */
+    cursor: pointer;
+}
+
+#Admin-wrapper .admin-content .page-title{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+	font-size:30px;
+}
+
+#Admin-wrapper .admin-content .other-content .btn2{
+    margin-left: 45%;
+    width: 100px;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+th, td{
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #00cbff;
+}
+.admin-input{
+    padding: 10px 0;
+    width:100%;
+    margin: 5px 0;
+    border: 1px solid #999;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    outline: none;
+    background: white;
+    font-size:16;
+}
+#Admin-wrapper .admin-content .other-content .edit{
+    color: #00a824;
+}
+
+#Admin-wrapper .admin-content .other-content .delete{
+    color: #c40000;
+}
+
+#Admin-wrapper .admin-content .other-content .publish{
+    color: #000ed8;
+}
+
+#Admin-wrapper .admin-content .other-content .unpublish{
+    color: #000ed8;
+}
+
+#Admin-wrapper .admin-content .other-content .edit:hover{
+    color: #00811c;
+}
+#Admin-wrapper .admin-content .other-content .delete:hover{
+    color: #960000;
+}
+#Admin-wrapper .admin-content .other-content .publish:hover{
+    color: #000879;
+}
+#Admin-wrapper .admin-content .other-content .unpublish:hover{
+    color: #000879;
+}
+
+#Admin-wrapper .admin-content  .ad_T{
+    color: #00a824;
+    font-size: 20px;
+}
+#Admin-wrapper .admin-content  .ad_F{
+    color: #c40000;
+    font-size: 20px;
+}
+form div{
+    margin-bottom: 15px;
+}
